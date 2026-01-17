@@ -310,7 +310,7 @@ export default function ContactPage() {
                   <div className="flex items-center gap-3">
                     <Mail className="text-[#FF9798]" size={20} />
                     <div>
-                      <p className="font-medium text-gray-900">contact@mammalick.com</p>
+                      <p className="font-medium text-gray-900">sales@mammalick.com</p>
                       <p className="text-sm text-gray-600">General Inquiries</p>
                     </div>
                   </div>
@@ -427,7 +427,7 @@ export default function ContactPage() {
             <div>
               <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
               <div className="space-y-2 text-gray-400">
-                <p>📧 contact@mammalick.com</p>
+                <p>📧 sales@mammalick.com</p>
                 <p>📞 443-762-0441</p>
                 <p>📍 USA Distribution Center</p>
               </div>
@@ -457,7 +457,7 @@ const contactInfo = [
     icon: Mail,
     title: "Email Support",
     details: [
-      "contact@mammalick.com",
+      "sales@mammalick.com",
       "24/7 Support Available"
     ]
   },

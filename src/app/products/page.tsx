@@ -85,14 +85,14 @@ export default function ProductsPage() {
                   </div>
                   
                   <div className="space-y-3">
-                    <button className="w-full bg-[#FF9798] hover:bg-[#FF8889] text-white py-3 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2">
+                    <Link href="/contact" className="w-full bg-[#FF9798] hover:bg-[#FF8889] text-white py-3 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2">
                       <ShoppingCart size={18} />
                       Inquire Now
-                    </button>
-                    <button className="w-full border-2 border-[#FF9798] text-[#FF9798] hover:bg-[#FF9798] hover:text-white py-3 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2">
+                    </Link>
+                    <Link href="/contact" className="w-full border-2 border-[#FF9798] text-[#FF9798] hover:bg-[#FF9798] hover:text-white py-3 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2">
                       <DollarSign size={18} />
                       Bulk Pricing
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </motion.div>
@@ -228,9 +228,9 @@ export default function ProductsPage() {
               Contact our sales team for custom orders, special pricing, and bulk shipping arrangements.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="border-2 border-white text-white hover:bg-white hover:text-[#FF9798] px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
+              <Link href="/contact" className="border-2 border-white text-white hover:bg-white hover:text-[#FF9798] px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
                 Call: 443-762-0441
-              </button>
+              </Link>
             </div>
           </motion.div>
         </div>
@@ -272,7 +272,7 @@ export default function ProductsPage() {
             <div>
               <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
               <div className="space-y-2 text-gray-400">
-                <p>📧 contact@mammalick.com</p>
+                <p>📧 sales@mammalick.com</p>
                 <p>📞 443-762-0441</p>
                 <p>📍 USA Distribution Center</p>
               </div>

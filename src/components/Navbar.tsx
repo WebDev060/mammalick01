@@ -19,15 +19,16 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           {/* Embossed Logo - Responsive for all screen sizes */}
-          <div className="absolute left-2 sm:left-4 lg:left-8 top-2 sm:top-1 z-50">
+          <div className="absolute left-2 sm:left-4 lg:left-8 top-3 sm:top-2 z-50">
             <Link href="/" className="block">
-              <div className="bg-white rounded-full shadow-xl p-2.5 sm:p-3.5 border-[5px] border-[#E89BA8] w-24 h-24 sm:w-32 sm:h-32 flex items-center justify-center">
+              <div className="bg-white rounded-full shadow-sm border-2 border-[#FF9798] p-3 sm:p-3.5 w-26 h-26 sm:w-32 sm:h-32 flex items-center justify-center">
                 <Image 
                   src="/Vector Smart Object.png" 
                   alt="PureLick Logo" 
-                  width={120} 
-                  height={120} 
-                  className="w-16 h-16 sm:w-24 sm:h-24 object-contain drop-shadow-lg" 
+                  width={130} 
+                  height={130} 
+                  className="w-18 h-18 sm:w-24 sm:h-24 object-contain drop-shadow-md"
+                  style={{ filter: 'contrast(1.1) brightness(1.05)' }}
                 />
               </div>
             </Link>

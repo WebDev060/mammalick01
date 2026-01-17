@@ -238,12 +238,12 @@ export default function AboutPage() {
       <section className="relative w-full bg-white">
         <div className="max-w-[1920px] mx-auto">
           <Image 
-            src="/1920x400 MYRILAND.jpg" 
-            alt="Maryland" 
+            src="/1920x400 MYRILAND new.jpg" 
+            alt="Maryland the Beautiful" 
             width={1920}
             height={400}
             className="w-full h-auto"
-            style={{ objectFit: 'contain' }}
+            style={{ objectFit: 'cover' }}
           />
         </div>
       </section>
@@ -285,7 +285,7 @@ export default function AboutPage() {
             <div>
               <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
               <div className="space-y-2 text-gray-400">
-                <p>📧 contact@mammalick.com</p>
+                <p>📧 sales@mammalick.com</p>
                 <p>📞 443-762-0441</p>
                 <p>📍 USA Distribution Center</p>
               </div>
