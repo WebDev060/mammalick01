@@ -17,19 +17,31 @@ export default function Navbar() {
   return (
     <nav className="bg-[#FFEBEB] bg-opacity-40 shadow-md sticky top-0 z-40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
+        <div className="flex justify-between items-center h-16">
           {/* Embossed Logo - Responsive for all screen sizes */}
           <div className="absolute left-2 sm:left-4 lg:left-8 top-3 sm:top-2 z-50">
             <Link href="/" className="block">
               <div className="bg-white rounded-full shadow-sm border-2 border-[#FF9798] p-3 sm:p-3.5 w-26 h-26 sm:w-32 sm:h-32 flex items-center justify-center">
                 <Image 
                   src="/Vector Smart Object.png" 
-                  alt="PureLick Logo" 
+                  alt="MammaLick Logo" 
                   width={130} 
                   height={130} 
                   className="w-18 h-18 sm:w-24 sm:h-24 object-contain drop-shadow-md"
                   style={{ filter: 'contrast(1.1) brightness(1.05)' }}
                 />
+              </div>
+            </Link>
+          </div>
+          
+          {/* MAMMALICK Text - Aligned with navbar items */}
+          <div className="hidden lg:flex items-center ml-2 xl:ml-6">
+            <Link href="/">
+              <div className="font-bold tracking-tight leading-none" style={{ fontFamily: 'Inter, sans-serif' }}>
+                <span className="text-[#FF989A] text-3xl" style={{ fontWeight: 700 }}>M</span>
+                <span className="text-[#FF989A] text-2xl" style={{ fontWeight: 600 }}>AMMA</span>
+                <span className="text-[#FF989A] text-3xl" style={{ fontWeight: 700 }}>L</span>
+                <span className="text-[#FF989A] text-2xl" style={{ fontWeight: 600 }}>ICK</span>
               </div>
             </Link>
           </div>

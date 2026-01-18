@@ -331,7 +331,7 @@ export default function HomePage() {
           </div>
           
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 PureLick. All rights reserved. | Premium Himalayan Salt Licks for Livestock</p>
+            <p>&copy; 2024 MammaLick. All rights reserved. | Premium Himalayan Salt Licks for Livestock</p>
           </div>
         </div>
       </footer>
