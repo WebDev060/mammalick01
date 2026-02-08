@@ -64,7 +64,6 @@ export default function ProductsPage() {
                   </div>
                   
                   <h3 className="text-xl font-bold text-gray-900 mb-2">{product.name}</h3>
-                  <p className="text-gray-600 mb-3 text-sm">{product.description}</p>
                   
                   <div className="space-y-1 mb-4">
                     {product.features.map((feature, idx) => (
