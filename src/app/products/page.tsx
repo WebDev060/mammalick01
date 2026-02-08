@@ -79,18 +79,18 @@ export default function ProductsPage() {
                       ${product.price}
                     </div>
                     <div className="text-xs text-gray-500">
-                      Per unit
+                      Free Shipping
                     </div>
                   </div>
                   
                   <div className="space-y-3">
                     <Link href="/contact" className="w-full bg-[#FF9798] hover:bg-[#FF8889] text-white py-3 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2">
-                      <ShoppingCart size={18} />
-                      Inquire Now
+                      <DollarSign size={18} />
+                      Buy Now
                     </Link>
                     <Link href="/contact" className="w-full border-2 border-[#FF9798] text-[#FF9798] hover:bg-[#FF9798] hover:text-white py-3 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2">
-                      <DollarSign size={18} />
-                      Bulk Pricing
+                      <ShoppingCart size={18} />
+                      Add To Cart
                     </Link>
                   </div>
                 </div>
