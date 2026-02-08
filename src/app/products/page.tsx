@@ -24,7 +24,7 @@ export default function ProductsPage() {
             transition={{ duration: 0.8 }}
             className="text-4xl font-bold mb-6 uppercase text-white drop-shadow-lg"
           >
-            Premium Animal Salt Lick Products
+            Premium Animal Lick Salt Products
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0, y: 50 }}
@@ -112,7 +112,7 @@ export default function ProductsPage() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-4 uppercase">
-              Wholesale & Bulk Pricing
+              Flexible Plans for Every Need
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Save more with larger quantities. Perfect for farms, ranches, and distributors.
@@ -242,10 +242,10 @@ export default function ProductsPage() {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <h3 className="text-2xl font-bold mb-4">
-                <span className="text-[#FF9798]">MAMMA</span><span className="text-white">LICK</span>
+                <span className="text-[#FF9798] text-3xl">M</span><span className="text-[#FF9798] text-2xl">AMMA</span><span className="text-white text-3xl">L</span><span className="text-white text-2xl">ICK</span>
               </h3>
               <p className="text-gray-400 mb-4">
-                Premium Himalayan Pink Salt Licks for healthier livestock across America.
+                Premium Himalayan Pink Animal Lick Salt for healthier livestock across America.
               </p>
             </div>
             
@@ -292,27 +292,23 @@ export default function ProductsPage() {
 const products = [
   {
     id: 1,
-    name: "Standard Salt Lick - 2kg",
-    weight: "2kg / 4.4 lbs",
-    description: "Perfect for small herds, goats, and sheep. Ideal size for individual animal access.",
+    name: "Standard 2 Pack - 5kg / 11 lbs",
+    weight: "2kg / 5.5 lbs",
     price: "24.99",
     image: "/standard salt lick.jpeg",
     features: [
-      "Perfect for 5-10 animals",
+      "Perfect for pets and wildlife",
       "Easy to handle and place",
-      "Long Lasting",
       "Weather-resistant design"
     ]
   },
   {
     id: 2,
-    name: "Medium Salt Lick - 5kg",
-    weight: "5kg / 11 lbs",
-    description: "Great for medium-sized herds of cattle, horses, and mixed livestock operations.",
+    name: "Standard 4 Pack - 10kg / 22 lbs",
+    weight: "2kg / 5.5 lbs",
     price: "49.99",
     image: "/medium salt link.jpeg",
     features: [
-      "Suitable for 15-25 animals",
       "Extended durability",
       "Lasts 6-8 months average",
       "Rope hole for hanging"
@@ -320,13 +316,11 @@ const products = [
   },
   {
     id: 3,
-    name: "Large Salt Lick - 10kg",
-    weight: "10kg / 22 lbs",
-    description: "Best value for large herds and commercial operations. Maximum longevity and cost efficiency.",
+    name: "Standard 6 Pack - 15kg / 33 lbs",
+    weight: "2kg / 5.5 lbs",
     price: "84.99",
     image: "/large salt link.jpeg",
     features: [
-      "Ideal for 30+ animals",
       "Maximum cost efficiency",
       "Long Lasting",
       "Heavy-duty construction"

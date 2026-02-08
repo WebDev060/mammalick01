@@ -2,10 +2,10 @@ import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
 const images = [
-  '/MainImage.png',
-  '/Mamalick Sketch.jpg',
-  '/slidepic2.png',
-  '/slidepic3.png',
+  '/Cow hi.jpg.jpeg',
+  '/Goat 2 hi.jpg.jpeg',
+  '/Sheep hi.jpg.jpeg',
+  '/Horse 2 high.jpg.jpeg',
 ];
 
 export default function HeroCarousel() {

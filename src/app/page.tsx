@@ -29,7 +29,7 @@ export default function HomePage() {
             transition={{ duration: 0.8 }}
             className="text-xl md:text-3xl lg:text-4xl font-extrabold mb-4 tracking-tight drop-shadow-2xl text-white"
           >
-            PURE HIMALAYAN ANIMAL<br />LICK SALT
+            PURE HIMALAYAN PNK ANIMAL LICK SALT
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0, y: 50 }}
@@ -123,10 +123,9 @@ export default function HomePage() {
               viewport={{ once: true }}
             >
               <h2 className="text-4xl font-bold text-gray-900 mb-6 uppercase">
-                Pure from the Himalayan Mountains
+                Rich natural pink salt mined from the himalayan mountain range
               </h2>
               <p className="text-lg text-gray-700 mb-6">
-                Sourced directly from the pristine Khewra Salt Mines in Pakistan, our pink Himalayan salt licks are formed over 250 million years ago, completely free from modern pollutants.
               </p>
               <div className="space-y-4">
                 {features.map((feature, index) => (
@@ -157,7 +156,7 @@ export default function HomePage() {
               Perfect for all FARM animals
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Our salt licks benefit a wide range of livestock and wildlife
+              Our lick salt benefit a wide range of livestock and wildlife
             </p>
           </motion.div>
 
@@ -223,7 +222,7 @@ export default function HomePage() {
               Trusted by FARMERS all across America
             </h2>
             <p className="text-xl text-gray-600">
-              See what our customers say about PureLick salt licks
+              See what our customers say about Himalayan pink animal lick salt.
             </p>
           </motion.div>
 
@@ -291,10 +290,10 @@ export default function HomePage() {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <h3 className="text-2xl font-bold mb-4">
-                <span className="text-[#FF9798]">MAMMA</span><span className="text-white">LICK</span>
+                <span className="text-[#FF9798] text-3xl">M</span><span className="text-[#FF9798] text-2xl">AMMA</span><span className="text-white text-3xl">L</span><span className="text-white text-2xl">ICK</span>
               </h3>
               <p className="text-gray-400 mb-4">
-                Premium Himalayan Pink Salt Licks for healthier livestock across America.
+                Premium Himalayan Pink Animal Lick Salt for healthier livestock across America.
               </p>
             </div>
             

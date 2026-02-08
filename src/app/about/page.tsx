@@ -117,7 +117,7 @@ export default function AboutPage() {
               <div className="relative z-10">
                 <h3 className="text-2xl font-bold text-gray-900 mb-6 uppercase text-center">Our Mission</h3>
                 <p className="text-gray-800 text-lg text-justify" style={{ fontFamily: 'Georgia, serif' }}>
-                  To provide American farmers and ranchers with the highest quality Himalayan pink salt licks that enhance animal health, improve productivity, and support sustainable agricultural practices through ethical sourcing and exceptional customer service.
+                  To provide American farmers and ranchers with the highest quality Himalayan animal pink lick salt that enhance animal health, improve productivity, and support sustainable agricultural practices through ethical sourcing.
                 </p>
               </div>
             </motion.div>
@@ -254,10 +254,10 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-3 gap-8">
             <div>
               <h3 className="text-2xl font-bold mb-4">
-                <span className="text-[#FF9798]">MAMMA</span><span className="text-white">LICK</span>
+                <span className="text-[#FF9798] text-3xl">M</span><span className="text-[#FF9798] text-2xl">AMMA</span><span className="text-white text-3xl">L</span><span className="text-white text-2xl">ICK</span>
               </h3>
               <p className="text-gray-400 mb-4">
-                Premium Himalayan Pink Salt Licks for healthier livestock across America.
+                Premium Himalayan Pink Animal Lick Salt for healthier livestock across America.
               </p>
             </div>
             

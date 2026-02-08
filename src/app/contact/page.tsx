@@ -96,7 +96,7 @@ export default function ContactPage() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl max-w-2xl mx-auto text-white drop-shadow"
           >
-            Get in touch for wholesale pricing, custom orders, or any questions about our premium salt licks
+            Get in touch for wholesale pricing, custom orders, or any questions about our premium animal lick salt.
           </motion.p>
         </div>
       </section>
@@ -396,10 +396,10 @@ export default function ContactPage() {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <h3 className="text-2xl font-bold mb-4">
-                <span className="text-[#FF9798]">MAMMA</span><span className="text-white">LICK</span>
+                <span className="text-[#FF9798] text-3xl">M</span><span className="text-[#FF9798] text-2xl">AMMA</span><span className="text-white text-3xl">L</span><span className="text-white text-2xl">ICK</span>
               </h3>
               <p className="text-gray-400 mb-4">
-                Premium Himalayan Pink Salt Licks for healthier livestock across America.
+                Premium Himalayan Pink Animal Lick Salt for healthier livestock across America.
               </p>
             </div>
             

@@ -54,7 +54,7 @@ export default function KnowledgePage() {
               Salt (sodium chloride) is one of the most critical nutrients for livestock health, yet it&apos;s often overlooked in animal nutrition programs. Unlike many nutrients, animals cannot synthesize sodium and chloride in their bodies, making supplementation essential for optimal health and productivity.*
             </p>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed text-justify">
-              Himalayan pink salt licks provide not only sodium and chloride but also trace minerals that support various physiological functions in livestock. This comprehensive guide explores the science-backed benefits of salt supplementation for your animals.
+              Himalayan pink lick salt provide not only sodium and chloride but also trace minerals that support various physiological functions in livestock. This comprehensive guide explores the science-backed benefits of salt supplementation for your animals.
             </p>
           </motion.div>
         </div>
@@ -326,10 +326,10 @@ export default function KnowledgePage() {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <h3 className="text-2xl font-bold mb-4">
-                <span className="text-[#FF9798]">MAMMA</span><span className="text-white">LICK</span>
+                <span className="text-[#FF9798] text-3xl">M</span><span className="text-[#FF9798] text-2xl">AMMA</span><span className="text-white text-3xl">L</span><span className="text-white text-2xl">ICK</span>
               </h3>
               <p className="text-gray-400 mb-4">
-                Premium Himalayan Pink Salt Licks for healthier livestock across America.
+                Premium Himalayan Pink Animal Lick Salt for healthier livestock across America.
               </p>
             </div>
             
@@ -473,12 +473,12 @@ const bestPractices = [
   {
     number: "1",
     title: "Free-Choice Access",
-    description: "Provide salt licks in multiple locations throughout pastures and barns, allowing animals to consume according to their individual needs."
+    description: "Provide lick salt in multiple locations throughout pastures and barns, allowing animals to consume according to their individual needs."
   },
   {
     number: "2",
     title: "Weather Protection",
-    description: "While salt licks can withstand rain, placing them under shelter or in covered areas extends their lifespan and maintains mineral integrity."
+    description: "While lick salt can withstand rain, placing them under shelter or in covered areas extends their lifespan and maintains mineral integrity."
   },
   {
     number: "3",
@@ -493,12 +493,12 @@ const bestPractices = [
   {
     number: "5",
     title: "Complementary to Diet",
-    description: "Salt licks supplement but don't replace a balanced diet. Consider dietary sodium content when determining supplementation needs."
+    description: "Lick Salt supplement but don't replace a balanced diet. Consider dietary sodium content when determining supplementation needs."
   },
   {
     number: "6",
     title: "Gradual Introduction",
-    description: "When introducing salt licks to animals unfamiliar with them, allow time for acceptance. Initial over-consumption typically self-regulates."
+    description: "When introducing lick salt to animals unfamiliar with them, allow time for acceptance. Initial over-consumption typically self-regulates."
   }
 ]
 
