@@ -306,7 +306,7 @@ const values = [
   {
     icon: Shield,
     title: "Quality First",
-    description: "We never compromise on the purity and quality of our salt licks"
+    description: "We never compromise on the purity and quality of our lick salt"
   },
   {
     icon: Globe,
