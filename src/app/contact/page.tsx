@@ -404,7 +404,7 @@ export default function ContactPage() {
             </div>
             
             {/* Products section hidden temporarily */}
-            {/* <div>
+            {/* <divsss>
               <h4 className="text-lg font-semibold mb-4">Products</h4>
               <ul className="space-y-2 text-gray-400">
                 <li><Link href="/products" className="hover:text-white transition-colors">2kg Salt Licks</Link></li>
