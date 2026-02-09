@@ -251,9 +251,9 @@ export default function ProductsPage() {
             <div>
               <h4 className="text-lg font-semibold mb-4">Products</h4>
               <ul className="space-y-2 text-gray-400">
-                <li><Link href="/products" className="hover:text-white transition-colors">2kg Salt Licks</Link></li>
-                <li><Link href="/products" className="hover:text-white transition-colors">5kg Salt Licks</Link></li>
-                <li><Link href="/products" className="hover:text-white transition-colors">10kg Salt Licks</Link></li>
+                <li><Link href="/products" className="hover:text-white transition-colors">5kg Lick Salt</Link></li>
+                <li><Link href="/products" className="hover:text-white transition-colors">10kg Lick Salt</Link></li>
+                <li><Link href="/products" className="hover:text-white transition-colors">15kg Lick Salt</Link></li>
                 <li><Link href="/products" className="hover:text-white transition-colors">Hanging Licks</Link></li>
               </ul>
             </div>
@@ -343,7 +343,7 @@ const pricingTiers = [
   },
   {
     name: "Professional",
-    discount: "15% OFF",
+    discount: "10% OFF",
     description: "For medium to large operations",
     features: [
       "21-50 units per order",
@@ -356,7 +356,7 @@ const pricingTiers = [
   },
   {
     name: "Enterprise",
-    discount: "25% OFF",
+    discount: "15% OFF",
     description: "For distributors and large ranches",
     features: [
       "51+ units per order",

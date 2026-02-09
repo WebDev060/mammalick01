@@ -29,7 +29,7 @@ export default function HomePage() {
             transition={{ duration: 0.8 }}
             className="text-xl md:text-3xl lg:text-4xl font-extrabold mb-4 tracking-tight drop-shadow-2xl text-white"
           >
-            PURE HIMALAYAN PNK ANIMAL LICK SALT
+            PURE HIMALAYAN PINK ANIMAL LICK SALT
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0, y: 50 }}
@@ -417,12 +417,12 @@ const moreAnimals = [
 
 const testimonials = [
   {
-    quote: "Since switching to PureLick salt licks, our dairy cows' milk production increased by 15%. The quality is exceptional!",
+    quote: "Since switching to PureLick lick salt, our dairy cows' milk production increased by 15%. The quality is exceptional!",
     name: "Sarah Johnson",
     location: "Wisconsin Dairy Farm"
   },
   {
-    quote: "Our horses love these salt licks. Their coats are shinier and they seem more energetic during training.",
+    quote: "Our horses love these lick salt. Their coats are shinier and they seem more energetic during training.",
     name: "Mike Rodriguez",
     location: "Texas Horse Ranch"
   },
