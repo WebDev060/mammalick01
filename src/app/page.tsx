@@ -417,7 +417,7 @@ const moreAnimals = [
 
 const testimonials = [
   {
-    quote: "Since switching to PureLick lick salt, our dairy cows' milk production increased by 15%. The quality is exceptional!",
+    quote: "Since switching to Mammalick salt, our dairy cows' milk production increased by 15%. The quality is exceptional!",
     name: "Sarah Johnson",
     location: "Wisconsin Dairy Farm"
   },
