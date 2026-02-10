@@ -73,7 +73,7 @@ export async function POST(request: NextRequest) {
     }
 
     const body = await request.json()
-    const { name, email, country, subject, message, inquiryType, recaptchaToken } = body
+    const { name, email, country, subject, message, inquiryType } = body
 
     // Validate required fields
     if (!name || !email || !message) {
@@ -91,22 +91,6 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    // Verify reCAPTCHA
-    if (!recaptchaToken) {
-      return NextResponse.json(
-        { error: 'reCAPTCHA verification failed' },
-        { status: 400 }
-      )
-    }
-
-    const isHuman = await verifyRecaptcha(recaptchaToken)
-    if (!isHuman) {
-      return NextResponse.json(
-        { error: 'reCAPTCHA verification failed. Please try again.' },
-        { status: 400 }
-      )
-    }
-
     // Sanitize all inputs
     const sanitizedName = sanitizeInput(name)
     const sanitizedEmail = sanitizeInput(email)
@@ -115,13 +99,18 @@ export async function POST(request: NextRequest) {
     const sanitizedMessage = sanitizeInput(message)
     const sanitizedInquiryType = sanitizeInput(inquiryType || 'general')
 
-    // Create transporter with Gmail SMTP
+    // Create transporter with Hostinger SMTP
     const transporter = nodemailer.createTransport({
-      service: 'gmail',
+      host: 'smtp.hostinger.com',
+      port: 587,
+      secure: false, // Use TLS
       auth: {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASS,
       },
+      tls: {
+        rejectUnauthorized: false
+      }
     })
 
     // Email content

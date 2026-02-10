@@ -6,7 +6,7 @@ const images = [
   '/Goat 2 hi.jpg.jpeg',
   '/Sheep hi.jpg.jpeg',
   '/Horse 2 high.jpg.jpeg',
-  '/Final Image hi.jpg.jpeg',
+  '/Final Image hi 2.jpg (1).jpeg',
 ];
 
 export default function HeroCarousel() {

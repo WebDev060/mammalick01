@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Heart, Shield, Truck, Star, CheckCircle } from 'lucide-react'
+import { Star, CheckCircle } from 'lucide-react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { OrganizationJsonLd } from '@/components/StructuredData'
@@ -37,7 +37,7 @@ export default function HomePage() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-base md:text-xl mb-4 text-white drop-shadow-lg"
           >
-            Nature&apos;s Essential Mineral for Healthy Livestock
+            Nature&apos;s Essential Minerals for Healthy Livestock
           </motion.p>
         </div>
       </section>
@@ -156,7 +156,7 @@ export default function HomePage() {
               Perfect for all FARM animals
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Our lick salt benefit a wide range of livestock and wildlife
+                MammaLick Brand Animal Lick Salt benefits a wide range of live stock and wild life.
             </p>
           </motion.div>
 
@@ -270,15 +270,19 @@ export default function HomePage() {
               Ready to Improve Your Livestock&apos;s Health?
             </h2>
             <p className="text-xl mb-8 text-white">
-              Contact us today for wholesale pricing and bulk orders. Free shipping available for large quantities.
+              Contact us today for bulk orders. Free shipping available for large quantities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-white text-gray-800 hover:bg-gray-100 px-8 py-4 rounded-md text-lg font-semibold transition-colors">
-                Get Wholesale Quote
-              </button>
-              <button className="border-2 border-white text-white hover:bg-white hover:text-gray-800 px-8 py-4 rounded-md text-lg font-semibold transition-colors">
-                Contact Us
-              </button>
+              <Link href="/contact">
+                <button className="bg-white text-gray-800 hover:bg-gray-100 px-8 py-4 rounded-md text-lg font-semibold transition-colors w-full sm:w-auto">
+                  Get Quote
+                </button>
+              </Link>
+              <Link href="/contact">
+                <button className="border-2 border-white text-white hover:bg-white hover:text-gray-800 px-8 py-4 rounded-md text-lg font-semibold transition-colors w-full sm:w-auto">
+                  Contact Us
+                </button>
+              </Link>
             </div>
           </motion.div>
         </div>
@@ -290,7 +294,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <h3 className="text-2xl font-bold mb-4">
-                <span className="text-[#FF9798] text-3xl">M</span><span className="text-[#FF9798] text-2xl">AMMA</span><span className="text-white text-3xl">L</span><span className="text-white text-2xl">ICK</span>
+                <span className="text-[#FF9798] text-3xl">M</span><span className="text-[#FF9798] text-2xl">AMMA</span><span className="text-[#FF9798] text-3xl">L</span><span className="text-[#FF9798] text-2xl">ICK</span>
               </h3>
               <p className="text-gray-400 mb-4">
                 Premium Himalayan Pink Animal Lick Salt for healthier livestock across America.
@@ -330,7 +334,7 @@ export default function HomePage() {
           </div>
           
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 MammaLick. All rights reserved. | Premium Himalayan Salt Licks for Livestock</p>
+            <p>&copy; 2024 MammaLick. All rights reserved. | Premium Himalayan Pink Animal Lick Salt Products for Healty Livestock</p>
           </div>
         </div>
       </footer>
@@ -417,12 +421,12 @@ const moreAnimals = [
 
 const testimonials = [
   {
-    quote: "Since switching to Mammalick salt, our dairy cows' milk production increased by 15%. The quality is exceptional!",
+    quote: "MammaLick brand animal lick salt is a great product for our cows.",
     name: "Sarah Johnson",
     location: "Wisconsin Dairy Farm"
   },
   {
-    quote: "Our horses love these lick salt. Their coats are shinier and they seem more energetic during training.",
+    quote: "Our horses love MammaLick brand animal lick salt. Their coats are shinier and they seem more energetic during training.",
     name: "Mike Rodriguez",
     location: "Texas Horse Ranch"
   },

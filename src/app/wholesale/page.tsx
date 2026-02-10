@@ -438,7 +438,7 @@ export default function WholesalePage() {
           <div className="grid md:grid-cols-3 gap-8">
             <div>
               <h3 className="text-2xl font-bold mb-4">
-                <span className="text-[#FF9798] text-3xl">M</span><span className="text-[#FF9798] text-2xl">AMMA</span><span className="text-white text-3xl">L</span><span className="text-white text-2xl">ICK</span>
+                <span className="text-[#FF9798] text-3xl">M</span><span className="text-[#FF9798] text-2xl">AMMA</span><span className="text-[#FF9798] text-3xl">L</span><span className="text-[#FF9798] text-2xl">ICK</span>
               </h3>
               <p className="text-gray-400 mb-4">Premium Himalayan Pink Lick Salt for healthier livestock.</p>
             </div>
@@ -476,7 +476,7 @@ export default function WholesalePage() {
           </div>
           
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 PureLick. All rights reserved. | Premium Himalayan Animal Lick Salt for Livestock</p>
+            <p>&copy; 2024 MammaLick. All rights reserved. | Premium Himalayan Pink Animal Lick Salt Products for Healty Livestock</p>
           </div>
         </div>
       </footer>

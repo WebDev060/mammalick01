@@ -5,7 +5,6 @@ import { Mail, Phone, MapPin, Clock, MessageSquare, Send, Globe, Truck } from 'l
 import Link from 'next/link'
 import Image from 'next/image'
 import { useState, useCallback } from 'react'
-import { useGoogleReCaptcha } from 'react-google-recaptcha-v3'
 import Navbar from '@/components/Navbar'
 
 export default function ContactPage() {
@@ -19,7 +18,6 @@ export default function ContactPage() {
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle')
-  const { executeRecaptcha } = useGoogleReCaptcha()
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target
@@ -31,23 +29,13 @@ export default function ContactPage() {
     setIsSubmitting(true)
     setSubmitStatus('idle')
 
-    if (!executeRecaptcha) {
-      console.error('reCAPTCHA not loaded')
-      setSubmitStatus('error')
-      setIsSubmitting(false)
-      return
-    }
-
     try {
-      // Get reCAPTCHA token
-      const recaptchaToken = await executeRecaptcha('contact_form')
-
       const response = await fetch('/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ ...formData, recaptchaToken }),
+        body: JSON.stringify(formData),
       })
 
       if (response.ok) {
@@ -68,7 +56,7 @@ export default function ContactPage() {
     } finally {
       setIsSubmitting(false)
     }
-  }, [executeRecaptcha, formData])
+  }, [formData])
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -96,7 +84,7 @@ export default function ContactPage() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl max-w-2xl mx-auto text-white drop-shadow"
           >
-            Get in touch for wholesale pricing, custom orders, or any questions about our premium animal lick salt.
+            Get in touch for bulk pricing, or any questions about MammaLick premimum animal lick salt.
           </motion.p>
         </div>
       </section>
@@ -396,7 +384,7 @@ export default function ContactPage() {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <h3 className="text-2xl font-bold mb-4">
-                <span className="text-[#FF9798] text-3xl">M</span><span className="text-[#FF9798] text-2xl">AMMA</span><span className="text-white text-3xl">L</span><span className="text-white text-2xl">ICK</span>
+                <span className="text-[#FF9798] text-3xl">M</span><span className="text-[#FF9798] text-2xl">AMMA</span><span className="text-[#FF9798] text-3xl">L</span><span className="text-[#FF9798] text-2xl">ICK</span>
               </h3>
               <p className="text-gray-400 mb-4">
                 Premium Himalayan Pink Animal Lick Salt for healthier livestock across America.

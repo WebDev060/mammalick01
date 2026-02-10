@@ -25,7 +25,7 @@ export default function AboutPage() {
             transition={{ duration: 0.8 }}
             className="mb-6"
           >
-            <h1 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 text-white uppercase tracking-wide drop-shadow-lg">ABOUT MAMMALICK HIMALAYAN ANIMAL LICK SALT</h1>
+            <h1 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 text-white uppercase tracking-wide drop-shadow-lg">ABOUT MammaLick BRAND HIMALAYAN PINK ANIMAL LICK SALT</h1>
           </motion.div>
           <motion.p 
             initial={{ opacity: 0, y: 50 }}
@@ -33,7 +33,7 @@ export default function AboutPage() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-lg md:text-xl max-w-3xl mx-auto text-white drop-shadow"
           >
-            Bringing to you the purest of pink salt from the ancient mines to you modern<br/>day farms
+            Premimum Product from the Ancient Mines to our valued Customers door step.
           </motion.p>
         </div>
       </section>
@@ -117,7 +117,7 @@ export default function AboutPage() {
               <div className="relative z-10">
                 <h3 className="text-2xl font-bold text-gray-900 mb-6 uppercase text-center">Our Mission</h3>
                 <p className="text-gray-800 text-lg text-justify" style={{ fontFamily: 'Georgia, serif' }}>
-                  To provide American farmers and ranchers with the highest quality Himalayan animal pink lick salt that enhance animal health, improve productivity, and support sustainable agricultural practices through ethical sourcing.
+                  To provide American farmers and ranchers with the highest quality Himalayan pink animal lick salt to enhance animal health, improve productivity, and support sustainable agricultural practices through ethical sourcing.
                 </p>
               </div>
             </motion.div>
@@ -254,7 +254,7 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-3 gap-8">
             <div>
               <h3 className="text-2xl font-bold mb-4">
-                <span className="text-[#FF9798] text-3xl">M</span><span className="text-[#FF9798] text-2xl">AMMA</span><span className="text-white text-3xl">L</span><span className="text-white text-2xl">ICK</span>
+                <span className="text-[#FF9798] text-3xl">M</span><span className="text-[#FF9798] text-2xl">AMMA</span><span className="text-[#FF9798] text-3xl">L</span><span className="text-[#FF9798] text-2xl">ICK</span>
               </h3>
               <p className="text-gray-400 mb-4">
                 Premium Himalayan Pink Animal Lick Salt for healthier livestock across America.
@@ -293,7 +293,7 @@ export default function AboutPage() {
           </div>
           
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 PureLick. All rights reserved.</p>
+            <p>&copy; 2024 MammaLick. All rights reserved. | Premium Himalayan Pink Animal Lick Salt Products for Healty Livestock</p>
           </div>
         </div>
       </footer>
@@ -321,7 +321,7 @@ const values = [
   {
     icon: Award,
     title: "Excellence",
-    description: "Continuous improvement and innovation in our products and processes"
+    description: "Continuous improvement and innovation to our products and processes"
   }
 ]
 

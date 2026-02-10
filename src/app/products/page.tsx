@@ -111,7 +111,7 @@ export default function ProductsPage() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-4 uppercase">
-              Flexible Plans for Every Need
+              MammaLick Specials
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Save more with larger quantities. Perfect for farms, ranches, and distributors.
@@ -139,7 +139,7 @@ export default function ProductsPage() {
                     {tier.discount}
                   </div>
                   <p className={`mb-6 ${tier.featured ? 'text-pink-100' : 'text-gray-600'}`}>
-                    {tier.description}
+                    {/* {tier.description} */}
                   </p>
                   
                   <div className="space-y-3 mb-8">
@@ -241,7 +241,7 @@ export default function ProductsPage() {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <h3 className="text-2xl font-bold mb-4">
-                <span className="text-[#FF9798] text-3xl">M</span><span className="text-[#FF9798] text-2xl">AMMA</span><span className="text-white text-3xl">L</span><span className="text-white text-2xl">ICK</span>
+                <span className="text-[#FF9798] text-3xl">M</span><span className="text-[#FF9798] text-2xl">AMMA</span><span className="text-[#FF9798] text-3xl">L</span><span className="text-[#FF9798] text-2xl">ICK</span>
               </h3>
               <p className="text-gray-400 mb-4">
                 Premium Himalayan Pink Animal Lick Salt for healthier livestock across America.
@@ -279,7 +279,7 @@ export default function ProductsPage() {
           </div>
           
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 MAMMALICK. All rights reserved.</p>
+            <p>&copy; 2024 MammaLick. All rights reserved. | Premium Himalayan Pink Animal Lick Salt Products for Healty Livestock</p>
           </div>
         </div>
       </footer>
@@ -331,7 +331,6 @@ const pricingTiers = [
   {
     name: "Starter",
     discount: "5% OFF",
-    description: "For small farms and hobby ranchers",
     features: [
       "5-20 units per order",
       "Standard shipping",
@@ -344,7 +343,6 @@ const pricingTiers = [
   {
     name: "Professional",
     discount: "10% OFF",
-    description: "For medium to large operations",
     features: [
       "21-50 units per order",
       "Free shipping on orders $500+",
@@ -357,7 +355,6 @@ const pricingTiers = [
   {
     name: "Enterprise",
     discount: "15% OFF",
-    description: "For distributors and large ranches",
     features: [
       "51+ units per order",
       "Always free shipping",
@@ -388,6 +385,6 @@ const shippingInfo = [
   {
     icon: Scale,
     title: "Quality Guarantee",
-    description: "100% satisfaction guarantee or full refund"
+    description: "100% satisfaction guaranteed"
   }
 ]
