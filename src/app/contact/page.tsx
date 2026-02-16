@@ -408,7 +408,7 @@ export default function ContactPage() {
                 <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
                 <li><Link href="/blog" className="hover:text-white transition-colors">Knowledge Center</Link></li>
                 <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
-                <li><Link href="/wholesale" className="hover:text-white transition-colors">Wholesale</Link></li>
+                <li><Link href="/wholesale" className="hover:text-white transition-colors">Bulk Orders</Link></li>
               </ul>
             </div>
             
@@ -423,7 +423,7 @@ export default function ContactPage() {
           </div>
           
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 PureLick. All rights reserved.</p>
+            <p>&copy; 2024 MammaLick. All rights reserved. | Premium Himalayan Pink Animal Lick Salt Products for Healty Livestock</p>
           </div>
         </div>
       </footer>
@@ -474,11 +474,11 @@ const businessHours = [
 const faqs = [
   {
     question: "What is your minimum order quantity for wholesale pricing?",
-    answer: "Our wholesale pricing starts at 21 units (any combination of products). We offer tiered discounts with larger quantities, up to 25% off for orders of 51+ units."
+    answer: "Our wholesale pricing starts at 21 units (any combination of products). We offer tiered discounts with larger quantities, up to 15% off for orders of 51+ units."
   },
   {
     question: "Do you offer free shipping?",
-    answer: "Yes! We offer free shipping on all orders over $500 within the continental United States. For smaller orders, shipping rates are calculated based on weight and destination."
+    answer: "Yes! We offer free shipping on all selected orders within the continental United States. For smaller orders, shipping rates are calculated based on weight and destination."
   },
   {
     question: "Can I get custom sizes or private labeling?",

@@ -318,7 +318,7 @@ export default function HomePage() {
                 <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
                 <li><Link href="/blog" className="hover:text-white transition-colors">Knowledge Center</Link></li>
                 <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
-                <li><Link href="/wholesale" className="hover:text-white transition-colors">Wholesale</Link></li>
+                <li><Link href="/wholesale" className="hover:text-white transition-colors">Bulk Orders</Link></li>
               </ul>
             </div>
             
@@ -431,7 +431,7 @@ const testimonials = [
     location: "Texas Horse Ranch"
   },
   {
-    quote: "Best investment we've made for our goat farm. The animals are healthier and the licks last much longer than others.",
+    quote: "Best investment we've made for our goat farm. The animals are healthier and the MammaLick brand animal lick salt lasts much longer than others.",
     name: "Linda Chen",
     location: "California Farm"
   }

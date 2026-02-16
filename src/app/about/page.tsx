@@ -25,7 +25,7 @@ export default function AboutPage() {
             transition={{ duration: 0.8 }}
             className="mb-6"
           >
-            <h1 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 text-white uppercase tracking-wide drop-shadow-lg">ABOUT MammaLick BRAND HIMALAYAN PINK ANIMAL LICK SALT</h1>
+            <h1 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 text-white tracking-wide drop-shadow-lg">ABOUT MammaLick BRAND HIMALAYAN PINK ANIMAL LICK SALT</h1>
           </motion.div>
           <motion.p 
             initial={{ opacity: 0, y: 50 }}
@@ -278,7 +278,7 @@ export default function AboutPage() {
                 <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
                 <li><Link href="/blog" className="hover:text-white transition-colors">Knowledge Center</Link></li>
                 <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
-                <li><Link href="/wholesale" className="hover:text-white transition-colors">Wholesale</Link></li>
+                <li><Link href="/wholesale" className="hover:text-white transition-colors">Bulk Orders</Link></li>
               </ul>
             </div>
             

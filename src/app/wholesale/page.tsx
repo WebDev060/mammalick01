@@ -47,7 +47,7 @@ export default function WholesalePage() {
             transition={{ duration: 0.8 }}
             className="text-5xl font-bold mb-6"
           >
-            Wholesale & Bulk Orders
+            Bulk Orders
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0, y: 50 }}
@@ -460,7 +460,7 @@ export default function WholesalePage() {
                 <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
                 <li><Link href="/blog" className="hover:text-white transition-colors">Knowledge Center</Link></li>
                 <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
-                <li><Link href="/wholesale" className="hover:text-white transition-colors">Wholesale</Link></li>
+                <li><Link href="/wholesale" className="hover:text-white transition-colors">Bulk Orders</Link></li>
               </ul>
             </div>
             

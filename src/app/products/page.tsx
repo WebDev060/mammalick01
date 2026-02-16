@@ -264,7 +264,7 @@ export default function ProductsPage() {
                 <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
                 <li><Link href="/blog" className="hover:text-white transition-colors">Knowledge Center</Link></li>
                 <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
-                <li><Link href="/wholesale" className="hover:text-white transition-colors">Wholesale</Link></li>
+                <li><Link href="/wholesale" className="hover:text-white transition-colors">Bulk Orders</Link></li>
               </ul>
             </div>
             

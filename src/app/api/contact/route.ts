@@ -99,18 +99,13 @@ export async function POST(request: NextRequest) {
     const sanitizedMessage = sanitizeInput(message)
     const sanitizedInquiryType = sanitizeInput(inquiryType || 'general')
 
-    // Create transporter with Hostinger SMTP
-    const transporter = nodemailer.createTransport({
-      host: 'smtp.hostinger.com',
-      port: 587,
-      secure: false, // Use TLS
+    // Create transporter with Gmail SMTP
+    const transporter = nodemailer.createTransporter({
+      service: 'gmail',
       auth: {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASS,
       },
-      tls: {
-        rejectUnauthorized: false
-      }
     })
 
     // Email content
